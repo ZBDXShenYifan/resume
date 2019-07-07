@@ -43,7 +43,8 @@ nav>ul>li>a{
    font-size: 14px;
    color: #BEC1C4;
    padding-bottom: 7px;
-   font-weight: bold
+   font-weight: bold;
+   border-bottom: 3px solid transparent;
 }
 
 nav>ul>li>a:hover {
