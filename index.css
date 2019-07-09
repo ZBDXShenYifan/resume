@@ -1,13 +1,25 @@
-body {
-    background-color: #313B44;
+*{
     margin: 0;
+    padding: 0;
+}
+
+
+body {
+    /* background-color: #313B44; */
+    margin: 0;
+    background-color: #F0F0F0;
 }
 
 a {
     text-decoration: none;
 }
 
-
+.topNavBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 
 .topNavBar>a>span{
     float: left;
@@ -73,3 +85,112 @@ nav>ul>li>a:hover {
     color: #989CA1;
     /* font-family: Arial, Helvetica, sans-serif */
 }
+
+.backgroundImg{
+    height: 515px;
+    background-image: url("./img/bg.jpg");
+    background-position:center center;
+    background-size:cover;
+}
+
+.backgroundImg .mark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.introduceContent{
+    
+    /* border: 1px solid red; */
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.hello {
+    background-color: #FF5E62;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 12px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 23px;
+}
+
+.trangle{
+    display: block;
+    width:0px;
+    border: 10px solid transparent;
+    border-top:0px solid;
+    border-left:10px solid #FF5E62;
+    position: absolute;
+    top: 100%;
+    left: 4px;
+}
+
+.avator{
+    float: left;
+}
+
+.text{
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+
+.introduceInner{
+    padding:50px;
+    /* height: 100%; */
+}
+
+.introduceInner .text hr{
+    border: none;
+    height: 0;
+    border-top: 1px solid #dedede;
+    margin: 20px 0;
+}
+
+.introduceInner .text dt,
+.introduceInner .text dd{
+    float: left;
+    margin: 5px 0;
+}
+
+.introduceInner .text dt{
+    font-weight: bold;
+    width: 30%;
+}
+
+.introduceInner .text dd{
+   width: 70%;
+   color: #9da0a7
+}
+
+.media {
+    text-align: center;
+    background-color: #FD5F61;
+}
+
+.media a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* background-color: #FD5F61; */
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.media a:hover{
+    background-color: #cf5d5f;
+}
+
+.icon {
+    width: 30px; 
+    height: 30px;
+    vertical-align: top;
+    fill: #fff;
+    overflow: hidden;
+    margin: 5px 0;
+ }
