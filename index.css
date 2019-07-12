@@ -106,6 +106,8 @@ nav>ul>li>a:hover {
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
+    margin-top: -350px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
 .hello {
@@ -194,3 +196,29 @@ nav>ul>li>a:hover {
     overflow: hidden;
     margin: 5px 0;
  }
+.downloadResumeWrapper{
+    text-align: center;
+}
+.downloadResume{
+    color: #3D4651;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid #CACDCF;
+    padding: 24px 55px;
+    margin: 25px auto;
+    transition: box-shadow .2s;
+}
+
+.downloadResume:hover{
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.discription{
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: kai;
+    color: #6E6E6E;
+}
