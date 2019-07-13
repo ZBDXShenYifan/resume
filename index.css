@@ -222,3 +222,69 @@ nav>ul>li>a:hover {
     font-family: kai;
     color: #6E6E6E;
 }
+
+.skills {
+    /*background-color: #fff;*/
+    margin-bottom: 40px;
+}
+.skills h2{
+    text-align: center;
+    margin: 20px auto;
+    font-weight: normal;
+
+}
+
+.skills .displaySkill{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+    padding: 40px 50px 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.skills .displaySkill ol{
+    margin: 0 auto;
+    /*text-align: center;*/
+    list-style: none;
+}
+
+.skills .displaySkill ol li .skill-name{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skills .displaySkill ol li{
+    float: left;
+    width: 50%;
+    color: #3d4451;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+
+.skills .displaySkill ol li:nth-child(even){
+    padding-right: 0;
+}
+
+
+
+.skills .displaySkill .progress{
+    width: 100%;
+    /*border: 1px solid red;*/
+    height: 5px;
+    border-radius: 50px;
+    background-color: #FFDFE0;
+}
+
+.skills .displaySkill .progress .progress-num{
+    width: 70%;
+    border: 1px solid red;
+    height: 3px;
+    background-color: #FF5E62;
+    border-radius: 5px;
+    
+}
