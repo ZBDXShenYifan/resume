@@ -31,17 +31,17 @@ display: block;
 clear: both;
 }
 
-nav {
+.topNavBar nav {
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-nav>ul {
+.topNavBar nav>ul {
     margin: 0;
 }
 
 
-nav>ul>li{
+.topNavBar nav>ul>li{
     float: left;
     list-style: none;
     margin-right: 17px;
@@ -49,7 +49,7 @@ nav>ul>li{
     
 }
 
-nav>ul>li>a{
+.topNavBar nav>ul>li>a{
     display: block;
     padding-top: 7px;
    font-size: 14px;
@@ -227,7 +227,7 @@ nav>ul>li>a:hover {
     /*background-color: #fff;*/
     margin-bottom: 40px;
 }
-.skills h2{
+.skills h2, .portfolio h2{
     text-align: center;
     margin: 20px auto;
     font-weight: normal;
@@ -288,3 +288,106 @@ nav>ul>li>a:hover {
     border-radius: 5px;
     
 }
+section.portfolio {
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+section.portfolio nav{
+    text-align: center;
+}
+section.portfolio nav ul{
+    /*border: 1px solid red;*/
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section.portfolio .topTitle{
+    /*border: 1px solid red;*/
+    display: inline-block;
+    color: #3D4651;
+}
+
+section.portfolio nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    /*font-weight: bold;*/
+}
+
+section.portfolio nav ul li:last-child{
+    margin-right: 0;
+}
+
+
+
+section.portfolio .topTitle .progress{
+    /*border: 1px solid red;*/
+    height: 5px;
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+section.portfolio .topTitle .progress .progress-num{
+    border-radius: 5px;
+    width: 50px;
+    height: 100%;
+    background-color: #FF5E62;
+    transition: all .2s;
+}
+
+section.portfolio .topTitle .progress .station2{
+    width: 90px;
+    margin-left: 50px;
+}
+
+section.portfolio .topTitle .progress .station3{
+    width: 75px;
+    margin-left: 150px;
+}
+
+section.portfolio .works{
+    margin: 28px auto;
+    /*border: 1px solid red;*/
+    width: 907px;
+    height: 600px;
+    position: relative;
+}
+
+
+section.portfolio .works .work1{
+    position: absolute;
+    background: url("img/1.jpg") center center;
+    background-size:cover;
+    height: 600px;
+    width: 600px;
+    top: 0;
+    left: 0;
+}
+
+section.portfolio .works .work2{
+    position: absolute;
+    background: url("img/2.jpg") center center;
+    background-size:cover;
+    width: 290px;
+    height: 275px;
+    top: 0;
+    left: 617px;
+}
+
+section.portfolio .works .work3{
+    position: absolute;
+    background: url("img/3.jpg") center center;
+    background-size:cover;
+    width: 290px;
+    height: 275px;
+    top: 325px;
+    left: 617px;
+}
+
+
+

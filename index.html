@@ -122,36 +122,63 @@
         </div>
     </section>
 
-    <h2>作品集</h2>
-    <nav>
-        <ul>
-            <li>所有</li>
-            <li>小程序</li>
-            <li>网站开发</li>
-        </ul>
-    </nav>
-    <div class="work1">
-        <span class="name"></span>
-        <span class="type"></span>
-    </div>
-    <div class="work2">
-        <span class="name"></span>
-        <span class="type"></span>
-    </div>
-    <div class="work3">
-        <span class="name"></span>
-        <span class="type"></span>
-    </div>
+    <section class="portfolio">
+        <h2>作品集</h2>
 
-    <h2>博客</h2>
-    <div class="blogWork">
-        <ul>
-            <li><a href="#">文章1</a></li>
-            <li><a href="#">文章2</a></li>
-            <li><a href="#">文章3</a></li>
-            <li><a href="#">文章4</a></li>
-        </ul>
-    </div>
+        <div class="topTitle">
+            <nav>
+                <ul class="clearfix">
+                    <li id="station-1">所有</li>
+                    <li id="station-2">小程序</li>
+                    <li id="station-3">网站开发</li>
+                </ul>
+            </nav>
+
+            <div class="progress">
+                <div class="progress-num" id="progress-station"></div>
+            </div>
+        </div>
+
+        <script>
+            let station_1 = document.getElementById("station-1");
+            let station_2 = document.getElementById("station-2");
+            let station_3 = document.getElementById("station-3");
+            let progress_station = document.getElementById("progress-station")
+            station_1.onclick = function () {
+                progress_station.className = "progress-num station1"
+            };
+
+            station_2.onclick = function () {
+                progress_station.className = "progress-num station2"
+            };
+
+            station_3.onclick = function () {
+                progress_station.className = "progress-num station3"
+            };
+        </script>
+
+        <div class="works">
+            <div class="work1">
+
+            </div>
+            <div class="work2">
+
+            </div>
+            <div class="work3">
+
+            </div>
+        </div>
+    </section>
+
+    <!--<h2>博客</h2>-->
+    <!--<div class="blogWork">-->
+        <!--<ul>-->
+            <!--<li><a href="#">文章1</a></li>-->
+            <!--<li><a href="#">文章2</a></li>-->
+            <!--<li><a href="#">文章3</a></li>-->
+            <!--<li><a href="#">文章4</a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
 
 </body>
 </html>
