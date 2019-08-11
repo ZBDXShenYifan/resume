@@ -7,7 +7,9 @@
     <script src="//at.alicdn.com/t/font_1285987_31r2me8mw1.js"></script>
 </head>
 <body>
-    
+    <div id="siteWelcome" class="site-welcome active">
+        <div class="loading"></div>
+    </div>
     <div class="topNavBar clearfix">
         <a class="logo" href="#">
             <span class="rs">RS</span>
@@ -179,7 +181,9 @@
             <!--<li><a href="#">文章4</a></li>-->
         <!--</ul>-->
     <!--</div>-->
-
+   <script>
+       siteWelcome.classList.remove('active');
+   </script>
 </body>
 </html>
 
